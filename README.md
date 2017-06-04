@@ -18,33 +18,3 @@ When ready, documentation can be found here: https://grivetdb.org/documentation/
 5. Follow the setup instructions.
 
 You're ready to go! See the documentation.
-
-# Use
-
-```php
-
-//Require grivet.php in any file that will be using GrivetDB in the beginning of your code.
-require '/grivet/scripts/grivet.php';
-
-//Calling a function
-\grivet\db::foo();
-
-
-```
-
-Like any function, you can use GrivetDB functions in if() statements or you can simply echo their data.
-
-```php
-
-if(\grivet\db::foo()) {
-  //More code...
-}
-
-//Or
-
-echo \grivet\db::foo();
-
-?>
-
-
-```
